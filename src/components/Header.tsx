@@ -3,7 +3,7 @@ import { ShoppingBag, Menu, X, User, LogOut, Settings, Shield } from 'lucide-rea
 import { Link } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { signOut } from '../lib/auth'
-import { isUserAdmin } from '../lib/admin'
+
 import AuthModal from './auth/AuthModal'
 import SearchBar from './SearchBar'
 
